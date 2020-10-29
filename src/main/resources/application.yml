@@ -1,0 +1,24 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: ali-sms
+  rabbitmq:
+    host: 101.201.255.155
+    port: 5672
+    username: guest
+    password: guest
+  datasource:
+    url: jdbc:mysql://101.201.255.155:3306/demo?useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+  redis:
+    host: 101.201.255.155
+    port: 6379
+sms:
+  accessKeyId: LTAI4GJV36fWTTVjYYtBGHJ5
+  accessKeySecret: gOcgDuKTE1QlQDxsK9rmQDyoLhwQ0m
+  signName: ABC商城
+  codeTemplate: SMS_205139035
