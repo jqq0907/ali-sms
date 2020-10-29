@@ -1,0 +1,1 @@
+集合了rabbitMQ、redis、ali短信
