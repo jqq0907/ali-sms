@@ -19,6 +19,6 @@ spring:
     port: 6379
 sms:
   accessKeyId: LTAI4GJV36fWTTVjYYtBGHJ5
-  accessKeySecret: gOcgDuKTE1QlQDxsK9rmQDyoLhwQ0m
+  accessKeySecret: 
   signName: ABC商城
   codeTemplate: SMS_205139035
